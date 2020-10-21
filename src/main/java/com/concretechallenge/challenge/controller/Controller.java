@@ -13,6 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+
+//          Couldn't implement an intermediate local persistence layer successfully, so I fell back
+//      to the most straightforward approach. I would improve this solution by creating a separate API to
+//      implement 1) the consumption of external APIs and 2) required mapping and filtering of data,
+//      3) an intermediate persistence layer. Therefore, ideally, I would have this API
+//      perform the role of a Backend For Frontend.
+
 @RestController
 @RequiredArgsConstructor
 public class Controller {
