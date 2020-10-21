@@ -19,6 +19,7 @@ import java.util.List;
 //      implement 1) the consumption of external APIs and 2) required mapping and filtering of data,
 //      3) an intermediate persistence layer. Therefore, ideally, I would have this API
 //      perform the role of a Backend For Frontend.
+//      Also, given more time I would add proper responses with http codes, which are non-existent.
 
 @RestController
 @RequiredArgsConstructor
